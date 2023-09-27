@@ -3,3 +3,113 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+
+body {
+    font: 1.5rem "Helvetica", sans-serif;
+    width: auto;
+    height: auto;
+    background: #D4A76A;
+    margin: 0;
+}
+.header h1 {
+    color: #553100;
+    font-size: 50px;
+}
+.header {
+    flex-wrap: nowrap;
+    margin-block-start: 0 ;
+    width: 93%;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline-end: 0%;
+    border-bottom: solid;
+    border-width: 2px;
+    display: flex;
+    background-color: #ffDBAA;
+    margin: auto;
+    padding-right: 5%;
+    padding-left: 3%;
+    padding-bottom: 50px;
+}
+
+.middle {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    box-shadow: 0 0 12px black;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.box h2, .bottom h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* .middle div h1{
+    justify-content: center;
+    align-self: center;
+} */
+
+
+.bottom div {
+    justify-self: center;
+    background: white;
+    margin: auto;
+    width: 90%;
+    box-shadow: 0 0 10px black;
+    padding-bottom: 15px;
+    padding-top: 1px;
+
+}
+
+button {
+    background: #805215;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+}
+
+.header button {
+    border-style: hidden;
+    margin-left: 30px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.middle button, .bottom button{
+    border-style: solid;
+    border-width: 2px;
+    width: 95%
+}
+.box button, .bottom button {
+    position: relative;
+    left: 2.5%;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom p {
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
